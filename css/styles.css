@@ -236,10 +236,32 @@ body{
 
 .container .contact{
     color: white;
+    height: 600px;
     background-color: rgba(22, 22, 22, 0.671);
     display: flex;
+    flex-direction: column;
 }
 
 .container .contact .contactus{
     text-align: center;
+    flex-basis: 15%;
+}
+
+.container .contact .form{
+    flex-basis: 50%;
+    display: flex;
+}
+
+.container .contact .form .leftform{
+    flex-basis: 33%;
+
+}
+
+.container .contact .form .rightform{
+    flex-basis: 67%;
+
+}
+
+.container .contact .end{
+    flex-basis: 35%;
 }
