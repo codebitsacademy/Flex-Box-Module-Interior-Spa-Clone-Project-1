@@ -186,3 +186,28 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.container .testimonials{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+}
+
+.container .testimonials .upper{
+    background-color: teal;
+    flex-basis: 20%;
+    text-align: center;
+
+}
+
+.container .testimonials .upper h2{
+    color: white;
+}
+
+.container .testimonials .lower{
+    background-color: turquoise;
+    flex-basis: 80%;
+    display: flex;
+    color: red;
+}
