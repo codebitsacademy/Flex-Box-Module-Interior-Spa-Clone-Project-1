@@ -191,11 +191,12 @@ body{
     display: flex;
     flex-direction: column;
     height: 350px;
+    background-color: rgb(247, 186, 18);
     
 }
 
 .container .testimonials .upper{
-    background-color: teal;
+    /* background-color: teal; */
     flex-basis: 20%;
     text-align: center;
     
@@ -207,25 +208,38 @@ body{
 }
 
 .container .testimonials .lower{
-    background-color: turquoise;
+    /* background-color: turquoise; */
     flex-basis: 80%;
     display: flex;
-    color: red;
+    color: black;
+    padding-top: 0px;
 }
 
 .container .testimonials .lower .lowerleft{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     flex-basis: 25%;
     padding-left: 50px;
     padding-top: 0px;
 }
 
 .container .testimonials .lower .lowerleft img{
-    border: 2px dotted red;
+    border: 2px dotted white;
     padding: 10px;
 }
 
 .container .testimonials .lower .lowerright{
-    background-color: rgb(93, 140, 172);
+    /* background-color: rgb(93, 140, 172); */
     flex-basis: 75%;
+    padding-top: 0px;
+    
+}
+
+.container .contact{
+    color: white;
+    background-color: rgba(22, 22, 22, 0.671);
+    display: flex;
+}
+
+.container .contact .contactus{
+    text-align: center;
 }
