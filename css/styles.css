@@ -190,7 +190,7 @@ body{
 .container .testimonials{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 350px;
     
 }
 
@@ -198,11 +198,12 @@ body{
     background-color: teal;
     flex-basis: 20%;
     text-align: center;
-
+    
 }
 
 .container .testimonials .upper h2{
     color: white;
+    
 }
 
 .container .testimonials .lower{
@@ -210,4 +211,21 @@ body{
     flex-basis: 80%;
     display: flex;
     color: red;
+}
+
+.container .testimonials .lower .lowerleft{
+    background-color: yellowgreen;
+    flex-basis: 25%;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+.container .testimonials .lower .lowerleft img{
+    border: 2px dotted red;
+    padding: 10px;
+}
+
+.container .testimonials .lower .lowerright{
+    background-color: rgb(93, 140, 172);
+    flex-basis: 75%;
 }
